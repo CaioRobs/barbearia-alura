@@ -1,0 +1,59 @@
+/* é assim que se comenta em css */
+/* comentario */
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    background: #CCCCCC;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+.beneficios {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.img-beneficios {
+    width: 50%;
+}
+
+
+/*cores são em rgb
+#_ _ _ _ _ _
+# R   G   B   - dois digitos em hexadecimal pra cada cor, de 00 a FF
+OU rgb(r, g, b) - de 0 a 255 pra cada cor
+OU só o nome da cor mesmo, aí fica genérico */
