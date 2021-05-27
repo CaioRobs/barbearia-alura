@@ -5,8 +5,8 @@ header {
 
 .caixa{
     position: relative;
-    width: 1240px;
-    margin: 0 auto;
+    width: auto;
+    margin: 0 12%;
 }
 
 nav{
@@ -24,6 +24,22 @@ nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: peru;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url("../images/bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }

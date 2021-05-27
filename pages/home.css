@@ -1,13 +1,10 @@
-/* é assim que se comenta em css */
-/* comentario */
-
 #banner{
     width: 100%;
 }
-
 .principal{
     background: #CCCCCC;
-    padding: 30px;
+    height: 120px;
+    padding: 15px;
 }
 
 .titulo-principal {
@@ -15,12 +12,13 @@
 }
 
 .titulo-centralizado {
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
 }
 
 p {
     text-align: center;
-    background: #CCCCCC;
 }
 
 #missao {
@@ -36,24 +34,20 @@ em strong {
     padding: 20px;
 }
 
-ul {
+.benefits-list {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    margin-left: 14%;
+    padding-top: 10%;
 }
 
 .itens {
     font-style: italic;
+    font-size: 25px;
 }
 
 .img-beneficios {
     width: 50%;
 }
-
-
-/*cores são em rgb
-#_ _ _ _ _ _
-# R   G   B   - dois digitos em hexadecimal pra cada cor, de 00 a FF
-OU rgb(r, g, b) - de 0 a 255 pra cada cor
-OU só o nome da cor mesmo, aí fica genérico */
