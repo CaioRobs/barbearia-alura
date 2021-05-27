@@ -1,8 +1,11 @@
-/* é assim que se comenta em css */
-/* comasdasdasdentario */
 
 #banner{
     width: 100%;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
 .principal{
@@ -51,9 +54,13 @@ ul {
     width: 50%;
 }
 
-
-/*cores são em rgb
-#_ _ _ _ _ _
-# R   G   B   - dois digitos em hexadecimal pra cada cor, de 00 a FF
-OU rgb(r, g, b) - de 0 a 255 pra cada cor
-OU só o nome da cor mesmo, aí fica genérico */
+footer {
+    text-align: center;
+    background: url("/images/bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
