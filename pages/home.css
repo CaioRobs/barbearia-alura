@@ -38,8 +38,8 @@ nav a:hover {
 }
 .principal{
     background: #CCCCCC;
-    height: 100px;
-    padding: 30px
+    height: 120px;
+    padding: 15px;
 }
 
 .titulo-principal {
@@ -47,12 +47,13 @@ nav a:hover {
 }
 
 .titulo-centralizado {
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
 }
 
 p {
     text-align: center;
-    background: #CCCCCC;
 }
 
 #missao {
@@ -73,6 +74,8 @@ em strong {
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    margin-left: 14%;
+    padding-top: 10%;
 }
 
 .itens {
