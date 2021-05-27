@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #cc8f14;
+    color: peru;
     text-decoration: underline;
 }
 
@@ -53,11 +53,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-    border-color: #cc8f14;
+    border-color: peru;
 }
 
 .produtos li:active {
-    border-color: rgb(16, 165, 53);
+    border-color: darkslategray;
 }
 
 .produtos h2 {

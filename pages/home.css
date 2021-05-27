@@ -1,5 +1,3 @@
-/* é assim que se comenta em css */
-/* comasdasdasdentario */
 
 #banner{
     width: 100%;
@@ -66,10 +64,3 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
-
-
-/*cores são em rgb
-#_ _ _ _ _ _
-# R   G   B   - dois digitos em hexadecimal pra cada cor, de 00 a FF
-OU rgb(r, g, b) - de 0 a 255 pra cada cor
-OU só o nome da cor mesmo, aí fica genérico */
