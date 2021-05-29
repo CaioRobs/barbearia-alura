@@ -88,6 +88,14 @@ li {
     box-shadow: 5px 5px 10px black;
 }
 
+.product-card:hover {
+    box-shadow: 7px 7px 15px black;
+}
+
+.product-card:hover .product-price {
+    font-weight: 500;
+}
+
 /* Estilo da pagina "Contato" */
 
 
