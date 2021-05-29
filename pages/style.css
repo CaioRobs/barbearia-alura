@@ -1,62 +1,9 @@
 /* Estilo da página "Produtos" */
 
 
-/* .produtos {
-    height: 450px;
-    width: 940px;
-    margin: 70px auto;
-} */
-
 body {
     width: 100vw;
 }
-
-/* .produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    padding-top: 50px;
-    margin: 20px 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-.produtos li:hover {
-    border-color: peru;
-}
-
-.produtos li:active {
-    border-color: darkslategray;
-}
-
-.produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.produtos li:hover h2 {
-    font-size: 35px;
-} */
-/*
-.produto-descricao {
-    font-size: 18px;
-}
-.produtos li:hover .produto-descricao {
-    font-size: 23px;
-} */
-
-/* .produto-preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
-} */
-
-/* .produtos li:hover .produto-preco {
-    font-size: 27px;
-} */
 
 .nav-item {
     text-transform: uppercase;
