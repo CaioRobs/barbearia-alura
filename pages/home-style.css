@@ -1,4 +1,4 @@
-#banner{
+/* #banner{
     width: 100%;
 }
 .principal{
@@ -50,4 +50,13 @@ em strong {
 
 .img-beneficios {
     width: 50%;
+} */
+
+#about {
+    padding: 1.5rem 0;
+}
+
+#about > div > h2, p {
+    color: white;
+    text-align: center;
 }
