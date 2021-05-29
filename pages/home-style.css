@@ -43,10 +43,7 @@ em strong {
     padding-top: 10%;
 }
 
-.itens {
-    font-style: italic;
-    font-size: 25px;
-}
+
 
 .img-beneficios {
     width: 50%;
@@ -59,4 +56,25 @@ em strong {
 #about > div > h2, p {
     color: white;
     text-align: center;
+    opacity: 0.75;
+}
+
+#about > div > p {  
+    font-family: lato;
+    font-size: 1.5rem;
+    font-weight: 0;
+    line-height: 1em;
+    
+}
+
+.img-beneficios {
+    width: 100%;
+}
+
+.itens {
+    font-family: lato;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: .2rem 0;
+    opacity: 0.75;
 }
