@@ -61,6 +61,7 @@ body {
 .nav-item {
     text-transform: uppercase;
     color: #000000;
+    font-family: lato;
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
