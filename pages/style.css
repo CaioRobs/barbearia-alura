@@ -1,6 +1,3 @@
-/* Estilo da página "Produtos" */
-
-
 body {
     width: 100vw;
 }
@@ -15,12 +12,45 @@ body {
     margin: 1rem;
 }
 
-li {
-    list-style-type: none;
+/* estilo da pagina "index" */
+
+#about {
+    padding: 1.5rem 0;
 }
 
-.product-section {
-    /* margin: "200px"; */
+#about > div > h2 {
+    color: white;
+    text-align: center;
+    opacity: 0.75;
+}
+
+#about > div > p {  
+    color: white;
+    text-align: center;
+    opacity: 0.75;
+    font-family: lato;
+    font-size: 1.5rem;
+    font-weight: 0;
+    line-height: 1em;
+    
+}
+
+.img-beneficios {
+    width: 100%;
+}
+
+.itens {
+    font-family: lato;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: .2rem 0;
+    opacity: 0.75;
+}
+
+/* Estilo da página "Produtos" */
+
+li {
+    list-style-type: none;
 }
 
 .product-card {
@@ -41,11 +71,27 @@ li {
 }
 
 .product-card:hover .product-price {
-    font-weight: 500;
+    font-weight: 550;
 }
 
 /* Estilo da pagina "Contato" */
 
+#formularios {
+    width: 940px;
+    margin: 0 auto;
+}
 
+form {
+   margin: 40px 0;
+}
 
+form label {
+   display: block;
+   font-size: 20px;
+   margin: 0 0 10px;
+}
 
+form input {
+   display: block;
+   margin: 0 0 20px;
+}
