@@ -52,15 +52,32 @@
   <main>
     <div id="formularios">
       <form>
-        <label for="nome-sobrenome">Nome e sobrenome</label>
+        <label for="nome-sobrenome">Nome e sobrenome:</label>
         <input type="text" id="nome-sobrenome">
 
-        <label for="email">E-mail</label>
+        <label for="email">E-mail:</label>
         <input type="text" id="email">
 
-        <label for="telefone">Telefone</label>
+        <label for="telefone">Telefone:</label>
         <input type="text" id="telefone">
 
+        <label for="mensagem">Mensagem:</label>
+        <textarea cols="50" rows="10" id="mensagem"></textarea>
+
+        <div>
+          <p>Como prefere nosso contato?</p>
+          <label for="radio-email">Email</label>
+          <input type="radio" name="contato" value="email" id="radio-email">
+
+          <label for="radio-telefone">Telefone</label>
+          <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+          <label for="radio-wpp">WhatsApp</label>
+          <input type="radio" name="contato" value="whatsapp" id="radio-wpp">
+        </div>
+
+        <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+        
         <input type="submit" value="Enviar formulário">
       </form>
     </div>

@@ -81,17 +81,26 @@ li {
     margin: 0 auto;
 }
 
+#formularios p{
+    display: block;
+    font-family: lato;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
 form {
    margin: 40px 0;
 }
 
 form label {
    display: block;
-   font-size: 20px;
-   margin: 0 0 10px;
+   font-family: lato;
+   font-size: 1.5em;
+   font-weight: 400;
 }
 
 form input {
    display: block;
    margin: 0 0 20px;
+   padding: 5px 10px;
 }
