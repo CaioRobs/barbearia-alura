@@ -89,18 +89,26 @@ li {
 }
 
 form {
-   margin: 40px 0;
+   margin: 3rem 0;
 }
 
-form label {
+.standard-input {
    display: block;
-   font-family: lato;
-   font-size: 1.5em;
-   font-weight: 400;
-}
-
-form input {
-   display: block;
-   margin: 0 0 20px;
+   margin: 0 0 20px 0;
    padding: 5px 10px;
+}
+
+.radio-input{
+    margin-right: 1em;
+}
+
+.form-style {
+    display: block;
+    font-family: lato;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
