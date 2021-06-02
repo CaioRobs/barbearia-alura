@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contato - Barbearia Alura</title>
-  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     <div class="container">
       <div class="row col-sm justify-content-between">
         <div class="col-sm col-md-4 d-flex justify-content-center justify-content-md-start">
-          <img src="../images/logo.png">
+          <img src="../images/logo.png" alt="Logo da Barbearia Alura">
         </div>
         <div class="container col-sm-12 col-md-8 d-flex align-items-center justify-content-sm-center justify-content-end" style="min-height: 100%;">
           <nav class="navbar navbar-expand-md navbar-light">
@@ -50,60 +50,85 @@
   </header>
 
   <main>
-    <div id="formularios">
-      <form>
-        <label for="nome-sobrenome" class="form-style">Nome e sobrenome:</label>
-        <input type="text" id="nome-sobrenome" class="standard-input">
+    <form class="formularios">
+      <label for="nome-sobrenome" class="form-style">Nome e sobrenome:</label>
+      <input type="text" id="nome-sobrenome" class="standard-input" required>
 
-        <label for="email" class="form-style">E-mail:</label>
-        <input type="text" id="email" class="standard-input">
+      <label for="email" class="form-style">E-mail:</label>
+      <input type="email" id="email" class="standard-input" required placeholder="seuemail@dominio.com">
 
-        <label for="telefone" class="form-style">Telefone:</label>
-        <input type="text" id="telefone" class="standard-input">
+      <label for="telefone" class="form-style">Telefone:</label>
+      <input type="tel" id="telefone" class="standard-input" required placeholder="(XX)XXXXX-XXXX">
 
-        <label for="mensagem" class="form-style">Mensagem:</label>
-        <textarea cols="50" rows="10" id="mensagem" class="standard-input"></textarea>
+      <label for="mensagem" class="form-style">Mensagem:</label>
+      <textarea cols="24" rows="7" id="mensagem" class="standard-input" required></textarea>
 
-        <div>
-          <p class="form-style">Como prefere nosso contato?</p>
-          <label for="radio-email" class="form-style">
-            <input type="radio" name="contato" value="email" id="radio-email" class="radio-input">
-            Email
-          </label>
-          
-          <label for="radio-telefone" class="form-style">
-            <input type="radio" name="contato" value="telefone" id="radio-telefone" class="radio-input">
-            Telefone
-          </label>
-
-          <label for="radio-wpp" class="form-style">
-            <input type="radio" name="contato" value="whatsapp" id="radio-wpp" class="radio-input">
-            Whatsapp
-          </label>
-          
-        </div>
-
-        <div style="margin: 1em 0;">
-        <p class="form-style">Qual horário prefere ser atendido?</p>
-          <select>
-            <option>Manhã</option>
-            <option>Tarde</option>
-            <option>Noite</option>
-          </select>
-        </div>
-
-        <label class="form-style checkbox"><input type="checkbox" style="margin-right: 1em;">Gostaria de receber nossas novidades por email?</label>
+      <fieldset class="form-style">
+        <legend class="form-style">Como prefere nosso contato?</legend>
         
-        <input type="submit" value="Enviar formulário">
-      </form>
-    </div>
+        <label for="radio-email" class="form-style">
+          <input type="radio" name="contato" value="email" id="radio-email" class="radio-input">
+          Email
+        </label>
+          
+        <label for="radio-telefone" class="form-style">
+          <input type="radio" name="contato" value="telefone" id="radio-telefone" class="radio-input">
+          Telefone
+        </label>
+
+        <label for="radio-wpp" class="form-style">
+          <input type="radio" name="contato" value="whatsapp" id="radio-wpp" class="radio-input" checked>
+          Whatsapp
+        </label>
+      </fieldset>
+
+      <fieldset style="margin: 1em 0;">
+      <legend class="form-style">Qual horário prefere ser atendido?</legend>
+        <select>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+      </fieldset>
+
+      <label class="form-style checkbox"><input type="checkbox" style="margin-right: 1em" checked>Gostaria de receber nossas novidades por email?</label>
+        
+      <input type="submit" value="Enviar formulário" class="button">
+    </form>
+
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th colspan="2">Rio de Janeiro</th> 
+        </tr>
+        <tr>
+          <th>Dia</th>
+          <th>Horário</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Segunda</td>
+          <td>8h ~ 20h</td>
+        </tr>
+        <tr>
+          <td>Quarta</td>
+          <td>8h ~ 20h</td>
+        </tr>
+        <tr>
+          <td>Sexta</td>
+          <td>8h ~ 20h</td>
+        </tr>
+      </tbody>
+    </table>
+    
   </main>
 
   <footer class="container-fluid" style="background: url(../images/bg.jpg);">
     <div class="container">
       <div class="row">
         <div class="col-sm-6 d-flex justify-content-center justify-content-md-start align-items-center">
-          <img src="../images/logo-branco.png" width="200">
+          <img src="../images/logo-branco.png" alt="Logo da Barbearia Alura" width="200">
         </div>
         <div class="col-sm-6 d-flex justify-content-center justify-content-md-start align-items-center">
           <p class="copyright" style="color: white;">&copy; Copyright Barbearia Alura - 2021</p>
