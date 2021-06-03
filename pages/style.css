@@ -31,8 +31,7 @@ body {
     font-family: lato;
     font-size: 1.5rem;
     font-weight: 0;
-    line-height: 1em;
-    
+    line-height: 1em;    
 }
 
 .img-beneficios {
@@ -68,7 +67,9 @@ li {
 
 .product-card:hover {
     box-shadow: 7px 7px 15px black;
+    border: 2px solid darkorange;
 }
+
 
 .product-card:hover .product-price {
     font-weight: 550;
@@ -76,31 +77,77 @@ li {
 
 /* Estilo da pagina "Contato" */
 
-#formularios {
-    width: 940px;
-    margin: 0 auto;
+.formularios {
+    width: 80%;
+    margin: 5rem auto;
 }
 
-#formularios p{
+.formularios p{
     display: block;
     font-family: lato;
     font-size: 1.5em;
     font-weight: 400;
 }
 
-form {
-   margin: 40px 0;
+.standard-input {
+   display: block;
+   margin: 0 0 1em 0;
+   padding: .5em .8em;
 }
 
-form label {
-   display: block;
-   font-family: lato;
-   font-size: 1.5em;
-   font-weight: 400;
+.radio-input{
+    margin-right: 1em;
 }
 
-form input {
-   display: block;
-   margin: 0 0 20px;
-   padding: 5px 10px;
+.form-style {
+    display: block;
+    font-family: lato;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.button {
+    margin-top: 2em;
+    width: 25%;
+    padding: 0 1em;
+    background: darkorange;
+    color: black;
+    font-family: lato;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    transition: background 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: orange;
+    box-shadow: 0px 0px 15px black;
+    transform: scale(1.1);
+}
+
+.tabela {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;    
+    margin-bottom: 5rem;
+    font-family: lato;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+thead {
+    background: #BBBBBB;
+}
+
+th, td {
+    width: 10em;
+    border: 1px solid black;
+    padding: .7em 1em;
 }
